@@ -65,7 +65,7 @@ export const paseNumers = (num: number) => {
 
 
 export const getAllLines = (num: number) => {
-    //check
+
   const { units, tens, hundreds, thousands } = paseNumers(num);
 
   const allLines = [];
