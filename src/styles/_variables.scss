@@ -1,0 +1,90 @@
+// Theme colors
+:root {
+  // Light theme (parchment-inspired)
+  --bg-primary: #f5f0e8;
+  --bg-secondary: #ebe4d8;
+  --bg-card: #faf7f2;
+  --bg-card-hover: #ffffff;
+  --text-primary: #2c2518;
+  --text-secondary: #5a5145;
+  --text-muted: #8a8279;
+  --accent-primary: #8b5a2b;
+  --accent-secondary: #a67c52;
+  --accent-tertiary: #c9a67a;
+  --border-color: #d4cdc0;
+  --border-light: #e8e2d8;
+  --shadow-color: rgba(44, 37, 24, 0.08);
+  --shadow-hover: rgba(44, 37, 24, 0.15);
+  --canvas-bg: #fdfcfa;
+  --stroke-color: #2c2518;
+  
+  // Category colors
+  --units-color: #2d6a4f;
+  --units-bg: rgba(45, 106, 79, 0.12);
+  --tens-color: #1d4e89;
+  --tens-bg: rgba(29, 78, 137, 0.12);
+  --hundreds-color: #7b2cbf;
+  --hundreds-bg: rgba(123, 44, 191, 0.12);
+  --thousands-color: #c97c1c;
+  --thousands-bg: rgba(201, 124, 28, 0.12);
+
+  // Transitions
+  --transition-fast: 0.15s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+[data-theme="dark"] {
+  --bg-primary: #1a1814;
+  --bg-secondary: #252118;
+  --bg-card: #2d281f;
+  --bg-card-hover: #383225;
+  --text-primary: #f0ebe3;
+  --text-secondary: #c4bdb0;
+  --text-muted: #8a8279;
+  --accent-primary: #c9a67a;
+  --accent-secondary: #a67c52;
+  --accent-tertiary: #8b5a2b;
+  --border-color: #3d372c;
+  --border-light: #4a443a;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --shadow-hover: rgba(0, 0, 0, 0.5);
+  --canvas-bg: #1f1c17;
+  --stroke-color: #f0ebe3;
+  
+  --units-color: #52b788;
+  --units-bg: rgba(82, 183, 136, 0.15);
+  --tens-color: #5390d9;
+  --tens-bg: rgba(83, 144, 217, 0.15);
+  --hundreds-color: #b185db;
+  --hundreds-bg: rgba(177, 133, 219, 0.15);
+  --thousands-color: #f4a940;
+  --thousands-bg: rgba(244, 169, 64, 0.15);
+}
+
+// Fonts
+$font-display: 'Cinzel', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$font-body: 'Crimson Text', 'Georgia', serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-2xl: 3rem;
+$spacing-3xl: 4rem;
+
+// Border radius
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$radius-xl: 16px;
+$radius-full: 9999px;
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;

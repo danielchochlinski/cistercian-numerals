@@ -1,3 +1,4 @@
+//canvasCistercianPaths.ts
 import type { Digit } from "./types"
 // tens  units
 // thousands hundreds
